@@ -45,17 +45,16 @@ llamafactory-cli train examples/train_mpo/{model}_mpo.yaml
 
 model = gemma2 / llama3.1 / qwen2.5
 
-<!-- ## Citation
+## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
 ```
-@inproceedings{zhao2024sapt,
-  title={Sapt: A shared attention framework for parameter-efficient continual learning of large language models},
-  author={Zhao, Weixiang and Wang, Shilong and Hu, Yulin and Zhao, Yanyan and Qin, Bing and Zhang, Xuanyu and Yang, Qing and Xu, Dongliang and Che, Wanxiang},
-  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  pages={11641--11661},
-  year={2024}
+@article{zhao2025mpo,
+  title={MPO: Multilingual Safety Alignment via Reward Gap Optimization},
+  author={Zhao, Weixiang and Hu, Yulin and Deng, Yang and Wu, Tongtong and Zhang, Wenxuan and Guo, Jiahe and Zhang, An and Zhao, Yanyan and Qin, Bing and Chua, Tat-Seng and others},
+  journal={arXiv preprint arXiv:2505.16869},
+  year={2025}
 }
-``` -->
+```
 
 ## Credits
 The code of this repository relies on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and we would like to show the sincere gratitude to authors of it.
